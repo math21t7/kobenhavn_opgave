@@ -10,14 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Oxygen&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-body">
+  <body class="bg-body dark:bg-darkbg">
+    <header class="flex gap-2 md:m-2">
+      <button id="dark" class="border w-12 rounded-md font-oxygen hidden md:block">Dark</button>
+      <button id="light" class="border w-12 rounded-md font-oxygen hidden md:block">Light</button>
+    </header>
 <section class="grid xl:grid-cols-2 md:p-8 md:m-32 shadow">
     <img src="_6090016.webp" alt="Bil" class="drop-shadow-lg md:max-w-lg place-self-center">
   <div class="grid place-content-center" >
   <h1 class="font-contrail text-5xl text-primary mt-11 tracking-wide">Københavnerbilleder</h1>
   <div class="grid place-content-center text-center">
-  <p class="tracking-wide font-oxygen mt-6 text-center text-lg"> - En guide til hipster foto</p>
-  <p class="font-oxygen tracking-wide text-center text-lg">af Sten Simons</p>
+  <p class="tracking-wide font-oxygen mt-6 text-center text-lg dark:text-darktxt"> - En guide til hipster foto</p>
+  <p class="font-oxygen tracking-wide text-center text-lg dark:text-darktxt">af Sten Simons</p>
   <button class="border-background hover:bg-hoverone hover:border-hoverone border-8 rounded-md bg-background text-button mt-14 mb-8 font-semibold w-44 tracking-wide ml-4">Køb</button>
 </div> 
 </div>
@@ -25,8 +29,8 @@
 </section>
 <section class="grid md:grid-cols-2 gap-20 m-8 p-8 shadow">
   <div>
-  <h2 class="md:text-right font-oxygen text-xl mb-6 tracking-wide">Stamdata</h2>
-  <ul class="md:text-right font-oxygen tracking-wide">
+  <h2 class="md:text-right font-oxygen text-xl mb-6 tracking-wide dark:text-darktxt">Stamdata</h2>
+  <ul class="md:text-right font-oxygen tracking-wide dark:text-darktxt">
   <li>Titel: Københavnerbilleder - en guide til hipster fotos</li>
   <li>Forfatter: Sten Simons</li>
   <li>Antal sider: 344</li>
@@ -36,8 +40,8 @@
 </ul>
 </div>
 <div>
-  <h2 class="font-oxygen text-xl mb-6 tracking-wide">Kort om bogen</h2>
-  <p class="font-oxygen tracking-wide">Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!     
+  <h2 class="font-oxygen text-xl mb-6 tracking-wide dark:text-darktxt">Kort om bogen</h2>
+  <p class="font-oxygen tracking-wide dark:text-darktxt">Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!     
 
   </p>
 </div>
@@ -51,8 +55,8 @@
 <img src="kobenhavnerbilleder_aaben_venstre.webp" alt="Bogen Københavnerbilleder set fra venstre" class="drop-shadow-lg">
 </section>
 <section class="grid m-8 p-8 tracking-wide shadow">
-  <h2 class=" font-oxygen text-xl mb-6">Kapitlerne</h2>
-  <ul class="grid md:grid-cols-2 md:grid-rows-4 gap-10 ">
+  <h2 class=" font-oxygen text-xl mb-6 dark:text-darktxt">Kapitlerne</h2>
+  <ul class="grid md:grid-cols-2 md:grid-rows-4 gap-10 dark:text-darktxt ">
   <li><h3 class="font-oxygen text-lg ">Kapitel 1 - Intro til street foto</h3>
   <p class="mb-4 font-oxygen">Hvad er street foto? Det handler i bund og grund om at skyde byens liv og byens geometri (urban geometry). I dette kapitel får du en grundig intro til hvad street foto er og et overblik over nogen af de kendte street-fotografer. Alt krydret med en masse gode eksempler på street fotos.</p>
 </li>
@@ -74,32 +78,32 @@
 <button class="tracking-wide font-oxygen mt-6 border-8 m-2 p-2 font-semibold place-self-center bg-secundary rounded-md border-secundary hover:border-hovertwo hover:bg-hovertwo">Download et prøvekapitel</button>
 </section>
 <section class=" shadow m-8 p-8">
-  <h2 class="font-oxygen text-xl mb-6 tracking-wide">Anmeldelser af bogen</h2>
+  <h2 class="font-oxygen text-xl mb-6 tracking-wide  dark:text-darktxt">Anmeldelser af bogen</h2>
   <div class="grid md:grid-cols-3 gap-10 tracking-wide">
     <div>
       <div class="flex"><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg> 
       </div>
-      <p class="font-oxygen mt-4">Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du er har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen.
+      <p class="font-oxygen mt-4 dark:text-darktxt ">Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du er har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen.
       </p>
-      <p class="font-oxygen italic mt-4 ">- Hanne Hovgaard, Berlingeren </p>
+      <p class="font-oxygen italic mt-4  dark:text-darktxt ">- Hanne Hovgaard, Berlingeren </p>
     </div>
     <div>
     <div class="flex"><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg> <svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg> 
     </div>
-      <p class="font-oxygen mt-4">Teksten er underholdende, og billederne er sku’ flotte. Hvad mere skal man sige om en fotobog?</p>
-  <p class="font-oxygen italic mt-4"> - Kim Kloggaard, Fotojournalen.dk</p>
+      <p class="font-oxygen mt-4 dark:text-darktxt ">Teksten er underholdende, og billederne er sku’ flotte. Hvad mere skal man sige om en fotobog?</p>
+  <p class="font-oxygen italic mt-4 dark:text-darktxt "> - Kim Kloggaard, Fotojournalen.dk</p>
 </div>
     <div>
       <div class="flex"><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg><svg width="32" height="32" viewBox="0 0 24 24"><path fill="#DD4A48" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
       </div>
-      <p class="font-oxygen mt-4">Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste - her er han for alvor i sit rette element, meget bedre end “studiefotografering som begyndere.” Tillykke - godt arbejde.</p>
-      <p class="font-oxygen italic mt-4"> - Volmer Hansen, Lukkertiden.dk</p>
+      <p class="font-oxygen mt-4 dark:text-darktxt ">Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste - her er han for alvor i sit rette element, meget bedre end “studiefotografering som begyndere.” Tillykke - godt arbejde.</p>
+      <p class="font-oxygen italic mt-4 dark:text-darktxt "> - Volmer Hansen, Lukkertiden.dk</p>
     </div>
   </div>
   
 </section>
 <section>
-  <h2 class="font-oxygen text-xl mb-6 tracking-wide m-8 p-8">Billeder fra bogen</h2>
+  <h2 class="font-oxygen text-xl mb-6 tracking-wide m-8 p-8 dark:text-darktxt">Billeder fra bogen</h2>
   <div class="grid md:grid-cols-3 md:grid-rows-2 gap-10 md:m-8 md:p-8 shadow">
   <img src="agfa-genanvendeligt-kamera-35mm-film-2-7.webp" alt="" class="md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3">
   <img src="agfa-genanvendeligt-kamera-35mm-film-2-5.webp" alt="Skater rampe" class="drop-shadow-lg md:col-start-2 md:col-end-3 md:row-start-1">
@@ -108,15 +112,15 @@
   <img src="lomo-smena-17.webp" alt="Natur" class="drop-shadow-lg md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-3 md:mb-9">
 </div>
 </section>
-<section class="m-8 p-8 shadow"><h2 class="tracking-wide font-oxygen text-xl mb-6">Forfatteren</h2>
+<section class="m-8 p-8 shadow"><h2 class="tracking-wide font-oxygen text-xl mb-6 dark:text-darktxt">Forfatteren</h2>
 <div class="grid xl:grid-cols-2">
   <img src="sten_simons.webp" alt="Billede af forfatteren Sten Simons" class="m-0 p-0 md:max-w-md drop-shadow-lg place-self-center">  
-  <p class="grid place-content-center font-oxygen mt-4 tracking-wide">Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
+  <p class="grid place-content-center font-oxygen mt-4 tracking-wide dark:text-darktxt">Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
     Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede en masse dagligdagsstof fra Amager på dagbladet “Amagerkaneren.” Sideløbende begyndte han at undervise i foto, og har skrevet et utal af bøger, herunder bestsellerne Scener fra S-toget, Brun mad - en visuel odysse, og lærebogen Fotografering for evnesvage.</p>
   </div>
   </section>
 <section class="grid place-content-center m-8 p-8 shadow">
-  <h2 class=" font-oxygen text-xl mb-4 tracking-wide text-center">Interesseret? Køb Københavnerbilleder nu!</h2>
+  <h2 class=" font-oxygen text-xl mb-4 tracking-wide text-center dark:text-darktxt">Interesseret? Køb Københavnerbilleder nu!</h2>
   <button class="border-background tracking-wide border-8 rounded-md  hover:bg-hoverone hover:border-hoverone bg-background text-button mt-6 font-semibold w-44 justify-self-center">Køb</button>
 </section>
     <script type="module" src="./main.js"></script>

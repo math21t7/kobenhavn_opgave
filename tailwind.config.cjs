@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode:"class",
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
     colors:{
@@ -10,6 +11,8 @@ body:"#F5EEDC",
 background:"#C0D8C0",
 hoverone:"#c3e0c3",
 hovertwo:"#f2be9d",
+darkbg:"#43464b",
+darktxt:"#FFFFFF",
     },
     extend: { 
       fontFamily:{
