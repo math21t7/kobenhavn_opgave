@@ -2,7 +2,21 @@
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    colors:{
+primary:"#DD4A48",
+secundary:"#ECB390",
+button:"#000000",
+body:"#F5EEDC",
+background:"#C0D8C0",
+hoverone:"#c3e0c3",
+hovertwo:"#f2be9d",
+    },
+    extend: { 
+      fontFamily:{
+        contrail:"'Contrail One', cursive",
+        oxygen:"'Oxygen',sans-serif",
+      },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
-};
+},
+}
